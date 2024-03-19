@@ -751,6 +751,14 @@ a.certificate{
     color: var(--text-black-900);
 }
 
+.gitlink{
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #000000;
+}
+
 /* Certifications */
 
 a.course{
@@ -981,7 +989,6 @@ a.course{
         font-weight: normal; 
     }
 
-    
 
     .skewed{
         width: 24em;
@@ -1137,5 +1144,28 @@ a.course{
     }
 }
 
+@media(max-width:320px){
+    .skills .tech-a .skill-check-1,
+    .skills .tech-b .skill-check-2{
+        width: 280px;
+        /* padding-right: 30px; */
+    }
+
+    .container .progress-container .progress-bar{
+        width: 240px;
+    }
+
+    .card-inner{
+        width: 260px;
+    }
+
+    .skewed{
+        width: 280px;
+    }
+
+    .certificate-img{
+        display: none;
+    }
+}
 
 
